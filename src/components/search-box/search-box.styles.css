@@ -1,9 +1,15 @@
 .search {
   -webkit-appearance: none;
   border: none;
+  border-radius: 10px;
   outline: none;
   padding: 10px;
   width: 180px;
   line-height: 30px;
   margin-bottom: 30px;
+}
+
+.search::placeholder {
+  font-weight: bold;
+  color: #0ccac48f;
 }
